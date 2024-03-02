@@ -13,8 +13,65 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header></header>
-    <main>main</main>
+    <header>
+      <div class="container mx-auto max-w-[1300px] w-[90%] lg-w[90%]">
+        <!--  -->
+        <div class="navbar mt-4">
+          <div class="navbar-start">
+            <a class="text-xl cursor-pointer"><img src="Logo.png" alt="" /></a>
+          </div>
+          <div class="navbar-center lg:flex">
+            <a class="btn">Sort by View</a>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-red-500 text-white">Blog</a>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </header>
+    <main>
+      <div class="container mx-auto max-w-[1300px] w-[90%] lg-w[90%]">
+        <div class="border-2 mt-4"></div>
+        <!-- dynamic button -->
+        <section id="catBtn" class="flex justify-center gap-4 my-6">
+          <!-- <button class="btn">All</button>
+          <button class="btn">All</button>
+          <button class="btn">All</button>
+          <button class="btn">All</button> -->
+        </section>
+        <!-- vdo section -->
+        <section id="vdoSection" class="grid lg:grid-cols-4 gap-6">
+          <!--  -->
+          <!-- <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Youtube"
+              />
+            </figure>
+            <div class="card-body p-6">
+              <div class="flex gap-4">
+                <div class="basis-1/4">
+                  <img class="w-full" src="Ellipse 1.jpeg" alt="" />
+                </div>
+                <div class="space-y-2">
+                  <h2 class="card-title text-lg">
+                    Building a Winning UX Strategy
+                  </h2>
+                  <div class="flex gap-4">
+                    <span class="author-name">Awlad hossain</span>
+                    <span><img src="Group.jpeg" alt="" /></span>
+                  </div>
+                  <p>91k views</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!--  -->
+        </section>
+      </div>
+    </main>
     <footer></footer>
     <script src="js/script.js"></script>
   </body>
